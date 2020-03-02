@@ -2,6 +2,9 @@
 
 A sample application that receives group notification updates from NSX-T and configures the appropriate network object-groups in a Cisco ASA (virtual or physical) using Ansible.
 
+More information about how to use this sample app can be found at the following link:  
+<https://www.sneaku.com/2020/03/02/how-to-sync-a-dynamic-nsx-t-group-to-an-external-system/>
+
 ## Clone the repository
 
 - `git clone https://github.com/dcoghlan/nsxtsync2asa.git`
