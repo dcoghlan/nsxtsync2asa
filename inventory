@@ -1,0 +1,20 @@
+# If connecting to an old ASA from MACOS, read the following article
+# https://www.petenetlive.com/KB/Article/0001245
+
+# To set global variables for all use [all:vars]
+# To set variables for individual groups of hosts use [groupname:vars]
+[all:vars]
+ansible_connection=network_cli
+ansible_ssh_port=22
+ansible_ssh_user='ansible'
+ansible_ssh_pass='VMware1!'
+ansible_network_os=asa
+ansible_become=yes
+ansible_become_method=enable
+ansible_become_pass=VMware1!
+ansible_obj_grp_dummy_grp=['10.1.0.77', '10.1.55.1', '10.111.220.33', '10.10.10.10']
+ansible_python_interpreter=auto_silent
+ansible_host_key_checking=false
+
+[ASAv]
+ciscoasa ansible_ssh_host=192.168.110.100 

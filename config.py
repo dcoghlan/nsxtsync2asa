@@ -1,0 +1,14 @@
+NSX_MANAGER_IP = "192.168.172.187"
+NSX_MANAGER_USERNAME = "admin"
+NSX_MANAGER_PASSWORD = "VMware1!VMware1!"
+
+MSG_REFRESH_NEEDED = "Received refresh needed notification"
+
+API_NOTIFICATION_USERNAME = "nsx_notification_user"
+API_NOTIFICATION_PASSWORD = "eZHc7k5Z7Gsa"
+API_NOTIFICATION_URI = "/nsx-notifications"
+
+OBJECT_GROUP_PLAYBOOK_NAME = 'ASA Object-Group Playbook'
+PLAYBOOKS_DIR_NAME = './playbooks'
+INVENTORY_FILE = 'inventory'
+INVENTORY_HOSTS_GROUP = 'ASAv'
